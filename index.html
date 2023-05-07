@@ -4,10 +4,14 @@ layout: home
 ---
 
 <script>
-  // Select the element
-  var elementToHide = document.querySelector('.sidebar-bottom.mt-auto.d-flex.flex-wrap.justify-content-center.align-items-center');
+  // Declare the variable outside the function
+  var elementToHide;
 
-  // Hide the element
-  elementToHide.style.display = 'none';
+  window.onload = function() {
+    // Assign the selected element to the variable
+    elementToHide = document.querySelector('.sidebar-bottom.mt-auto.d-flex.flex-wrap.justify-content-center.align-items-center');
+
+    // Hide the element
+    elementToHide.style.display = 'none';
+  };
 </script>
-
