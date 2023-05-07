@@ -17,3 +17,11 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 .post-meta {
 	display: none;
 }
+
+#breadcrumb {
+	display: none;	
+}
+
+#search-wrapper {
+	margin: auto;
+}
