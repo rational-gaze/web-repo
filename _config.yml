@@ -20,10 +20,10 @@ timezone:
 
 title: Anywhere in space... # the main title
 
-tagline: ...searching for the truth # it will display as the sub-title
+tagline: ...searching for something # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A challenge-focused website
+  Mental challenges are amazing
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://anywherein.space"
 
