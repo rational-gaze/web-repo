@@ -3,5 +3,4 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-Just a person.
+All sort of things, mainly brain-dump.
