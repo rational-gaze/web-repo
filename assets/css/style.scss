@@ -27,21 +27,25 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 #sidebar {
-  background: #3b4252;
+  background: #1e222b;
 }
 
 footer, #main-wrapper {
-  background: #2e3440;
+  background: #262b35;
 }
 
 #topbar-wrapper {
-  background: #434c5e;
+  background: #323946;
 }
 
 #post-list .post-preview:hover {
   background: #4c566a;
 }
 
-#post-list {
-  background: #434c5e;
+#post-list, .card-body {
+  background: #303744;
+}
+
+.pagination .page-item.active .page-link {
+  background: #323946;
 }
