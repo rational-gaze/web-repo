@@ -19,9 +19,29 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 #breadcrumb {
-	display: none;	
+	display: none;
 }
 
 #search-wrapper {
 	margin: auto;
+}
+
+#sidebar {
+  background: #3b4252;
+}
+
+footer, #main-wrapper {
+  background: #2e3440;
+}
+
+#topbar-wrapper {
+  background: #434c5e;
+}
+
+#post-list .post-preview:hover {
+  background: #4c566a;
+}
+
+#post-list {
+  background: #434c5e;
 }
