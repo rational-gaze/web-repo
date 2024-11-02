@@ -38,11 +38,11 @@ footer, #main-wrapper {
   background: #323946;
 }
 
-#post-list .post-preview:hover {
+#post-list .post-preview:hover, .card-body:hover {
   background: #4c566a;
 }
 
-.post-preview, .card-body, #post-list .post-preview, .card-body:hover  {
+.post-preview, .card-body, #post-list .post-preview {
   background: #303744;
 }
 
