@@ -38,9 +38,13 @@ footer, #main-wrapper {
   background: #323946;
 }
 
-.post-preview:hover, .card-body:hover {
+#post-list.post-preview:hover {
   background: #4c566a;
 }
+
+ .card-body:hover {
+   background: transparent;
+ }
 
 .card-body, #post-list .post-preview {
   background: #303744;
